@@ -1,0 +1,16 @@
+Border relations with Canada have never been better.
+1 2 4 8 16 32
+1 311
+7 0
+ionefg
+4 3 2 1 6 5
+
+---
+最后一题大体流程如下
+ - 输入x1 x2 x3 x4 x5 x6
+ - 验证xi -1 <= 5 且互不相等
+ - node[]结构体链表 node{int value, node *next}
+ - 依次选择node[7-xi] for i = 1,2,3,4,5,6
+ - 重新链表链接node[7-xi] -> node[7-x(i+1)]
+ - 要求链表上node至递减
+
