@@ -1,0 +1,2 @@
+movl $0x525bbdb4, 0x0804d100
+retl
